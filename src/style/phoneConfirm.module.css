@@ -32,3 +32,16 @@
 .phoneConfirmContainer p span {
     font-weight: 500;
 }
+
+.backBtn {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    
+    }
+
+.backBtn svg {
+    width: 20px;
+    height: 20px;
+}
+
