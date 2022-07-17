@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "title": "GOOD TIME",
+        "sub_titlle": "Calvin Marris x Email Nava on Good Time Show",
+        "members": [{
+            "first_name": "Sriram",
+            "last_name": "krishnan"
+        },
+        {
+            "first_name": "Aarthi",
+            "last_name": "Ramamurthy"
+        },
+        {
+            "first_name": "Steven",
+            "last_name": "Sinofshy"
+        },
+        {
+            "first_name": "Paul",
+            "last_name": "Davison"
+        }
+        
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Bad TIME",
+        "sub_titlle": "Peter x Email Nava on Bad Time Show",
+        "members": [{
+            "first_name": "Sweet",
+            "last_name": "Candy"
+        },
+        {
+            "first_name": "fish",
+            "last_name": "Chips"
+        },
+        {
+            "first_name": "hungry",
+            "last_name": "Eat"
+        },
+        {
+            "first_name": "Ha",
+            "last_name": "Hello"
+        }
+        
+        ]
+    },
+    {
+        "id": 3,
+        "title": "TIME TIME",
+        "sub_titlle": "On Time Time Show",
+        "members": [{
+            "first_name": "ken",
+            "last_name": "ken"
+        },
+        {
+            "first_name": "Marry",
+            "last_name": "Marry"
+        },
+        {
+            "first_name": "Happy",
+            "last_name": "Coding"
+        },
+        {
+            "first_name": "Andy",
+            "last_name": "A"
+        }
+        
+        ]
+    }
+
+
+
+]
