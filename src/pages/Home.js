@@ -7,6 +7,8 @@ import { AiOutlinePlus } from "react-icons/ai";
 import { BsGrid3X3GapFill } from "react-icons/bs";
 import data from "../data/roonCard.json";
 import BottomSheet from "../components/BottomSheet";
+import NewRoom from "../components/bottom_sheets/NewRoom";
+import newRoomData from "../data/newRoom.json";
 
 export default function Home() {
   const [itemVisible, setItemsVisible] = useState(true);
@@ -49,7 +51,7 @@ export default function Home() {
         </button>
       </div>
       <BottomSheet
-        sheetTittle="start room"
+        sheetTitle="start room"
         setSheetVisible={(item) => setSheetVisible(item)}
         sheetVisible={sheetVisible}
         cardDetail={data.find((item) => item.id == cardId)}
@@ -61,6 +63,13 @@ export default function Home() {
             setLoaderVisibility(false);
           }, 1000);
         }}
+      />
+      <BottomSheet
+        sheetTitle="new room"
+        setSheetVisible={(item) => setSheetCreateRoom(item)}
+        sheetVisible={sheetCreateRoom}
+        cardDetail={newRoomData}
+        setItemsVisible={(item) => setItemsVisible(item)}
       />
     </>
   );
