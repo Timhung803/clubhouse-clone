@@ -24,7 +24,7 @@ export default function NewRoom(props) {
           </div>
           <div>
             <AiOutlineFile />
-            <BsFillFilePersonFill />
+            <BsFillFilePersonFill className={style.person_icon}/>
           </div>
         </div>
       </div>
