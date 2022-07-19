@@ -1,13 +1,19 @@
 import React, { useState } from "react";
 import style from "../../style/roomDetail.module.css";
-import { AiOutlineFile } from "react-icons/ai";
-import { BsMicMuteFill, BsMicFill, BsFillFilePersonFill, BsFillPersonCheckFill } from "react-icons/bs";
+import { AiOutlineFile, AiOutlinePlus } from "react-icons/ai";
+import {
+  BsMicMuteFill,
+  BsMicFill,
+  BsFillFilePersonFill,
+  BsFillPersonCheckFill,
+} from "react-icons/bs";
 import { IoIosArrowBack } from "react-icons/io";
-import { FaRegHandPeace, FaRegHandPaper } from "react-icons/fa"
+import { FaRegHandPeace, FaRegHandPaper } from "react-icons/fa";
 import { Card } from "react-bootstrap";
 
 export default function NewRoom(props) {
-  const [micMuteVisible, setMicMuteVisible] = useState(true);
+  const [micMuteVisible, setMicMuteVisible] = useState(false);
+  const [itemVisible, setItemsVisible] = useState(true);
   const card = props.cardDetail;
   return (
     <>
@@ -34,7 +40,7 @@ export default function NewRoom(props) {
             className="d-flex align-items-center justify-content-between flex-wrap"
             style={{ padding: "0.5em 1em" }}
           >
-            {card.members.map((item)=> (
+            {card.members.map((item) => (
               <div className={style.memberContainer}>
                 {micMuteVisible ? (
                   <div className={style.audio_icon}>
@@ -43,13 +49,29 @@ export default function NewRoom(props) {
                 ) : (
                   ""
                 )}
-                <BsFillPersonCheckFill className={style.personcheck_icon}/>
+                <BsFillPersonCheckFill className={style.personcheck_icon} />
                 <p>
-                    <span>*</span>
-                    {item.first_name}
+                  <span>*</span>
+                  {item.first_name}
                 </p>
               </div>
             ))}
+          </div>
+        </div>
+        <div className={style.footer}>
+          <button
+            onClick={() => {
+              props.setItemsVisible(false);
+            }}
+          >
+            <FaRegHandPeace className={style.hand_icon}/> Leave Quietly
+          </button>
+          <div>
+            <button><AiOutlinePlus /></button>
+            <button><FaRegHandPaper className={style.hand_icon2}/></button>
+            <button onClick={() => setMicMuteVisible(!micMuteVisible)}>
+                {micMuteVisible ? <BsMicFill /> : <BsMicMuteFill />}
+            </button>
           </div>
         </div>
       </div>
