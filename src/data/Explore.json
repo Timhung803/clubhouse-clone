@@ -1,0 +1,82 @@
+{
+  "people": [
+    {
+      "title": "April Understood",
+      "description": "CEO and Founder, local Loboratory. Co-fonder, Venture Capitaal, DTC, AT, Saas"
+    },
+    {
+      "title": "May",
+      "description": "CTO of Co-fonder"
+    },
+    {
+      "title": "James Chan",
+      "description": "@jamescham"
+    }
+  ],
+  "conversation": [
+    {
+      "title": "Teach",
+      "description": "Venture Capitaal, DTC, AT, Saas, Angel Investor"
+    },
+    {
+      "title": "Faich",
+      "description": "CTO of Something"
+    },
+    {
+      "title": "Wellness",
+      "description": "Venture Capitaal, DTC, AT, Saas"
+    },
+    {
+      "title": "World Affairs",
+      "description": "DTC, AT, Saas"
+    },
+    {
+      "title": "Teach",
+      "description": "Venture Capitaal, DTC, AT, Saas, Angel Investor"
+    },
+    {
+      "title": "Faich",
+      "description": "CTO of Something"
+    },
+    {
+      "title": "Wellness",
+      "description": "Venture Capitaal, DTC, AT, Saas"
+    },
+    {
+      "title": "World Affairs",
+      "description": "DTC, AT, Saas"
+    },
+    {
+      "title": "Teach",
+      "description": "Venture Capitaal, DTC, AT, Saas, Angel Investor"
+    },
+    {
+      "title": "Faich",
+      "description": "CTO of Something"
+    },
+    {
+      "title": "Wellness",
+      "description": "Venture Capitaal, DTC, AT, Saas"
+    },
+    {
+      "title": "World Affairs",
+      "description": "DTC, AT, Saas"
+    },
+    {
+      "title": "Teach",
+      "description": "Venture Capitaal, DTC, AT, Saas, Angel Investor"
+    },
+    {
+      "title": "Faich",
+      "description": "CTO of Something"
+    },
+    {
+      "title": "Wellness",
+      "description": "Venture Capitaal, DTC, AT, Saas"
+    },
+    {
+      "title": "World Affairs",
+      "description": "DTC, AT, Saas"
+    }
+  ]
+}
