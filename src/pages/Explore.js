@@ -5,13 +5,14 @@ import data from "../data/Explore.json";
 import { BsFillPersonCheckFill } from "react-icons/bs";
 import { Input } from "antd";
 import { FcSearch } from "react-icons/fc";
+import SubHeader from "../components/SubHeader";
 
 export default function Explore() {
   const { people, conversation } = data;
   return (
     <div className={style.exploreContainer}>
       <div className={style.header}>
-        {/* <subheader /> */}
+        <SubHeader pageTitle="EXPLORE"/>
         <Input
           style={{
             backgroundColor: "#f4f4f4",
