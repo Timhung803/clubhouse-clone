@@ -16,7 +16,7 @@ export default function AllowNotification() {
                 </div>
                 <div className={style.action_btn}>
                     <Link exact to="/">Don't Allow</Link>
-                    <Link exact to="/">Allow</Link>
+                    <Link exact to="/home">Allow</Link>
                     <BsHandIndexThumb className={style.hand_icon}/>
                 </div>
             </div>

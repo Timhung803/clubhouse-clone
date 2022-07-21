@@ -16,7 +16,7 @@ function App() {
     <Router>
       <Route
         exact
-        path={["/", "/get_username", "/code_confirm", "/allow_notification"]}
+        path={["/","/invite", "/get_username", "/code_confirm", "/allow_notification"]}
       >
         <PlanLayout>
           <Switch>
