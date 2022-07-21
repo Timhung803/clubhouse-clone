@@ -13,9 +13,9 @@ function Welcome() {
         <p>Paul, Rohan & the Clubhouse team</p>
       </div>
       <div className={style.actionBtn}>
-        <Link exact to="/get_username" className="primaryBtn d-flex align-items-center mb-3">
+        <Link exact to="/invite" className="primaryBtn d-flex align-items-center mb-3">
           Get your username{" "}
-            <img src="" alt="" />
+            {/* <img src="" alt="" /> */}
         </Link>
         <Link>Have an invite text? Sign in</Link>
       </div>

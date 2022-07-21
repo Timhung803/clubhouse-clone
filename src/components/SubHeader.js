@@ -8,7 +8,7 @@ export default function SubHeader(props) {
   return (
     <div className={style.head}>
       <Link to="/home">
-        <IoIosArrowBack />
+        <IoIosArrowBack className={style.headArrow}/>
       </Link>
       <h3>{props.pageTitle}</h3>
     </div>

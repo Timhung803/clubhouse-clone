@@ -61,7 +61,7 @@ export default function NewRoom(props) {
         <div className={style.footer}>
           <button
             onClick={() => {
-              props.setItemsVisible(false);
+              props.setSheetVisible(false);
             }}
           >
             <FaRegHandPeace className={style.hand_icon}/> Leave Quietly
