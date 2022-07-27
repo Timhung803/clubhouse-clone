@@ -22,6 +22,7 @@ function App() {
           <Switch>
             <Route exact path="/" component={Welcome} />
             <Route exact path="/invite" component={PhoneConfirmation} />
+            <Route exact path="/get_username" component={PhoneConfirmation} />
             <Route exact path="/code_confirm" component={CodeConfirm} />
             <Route
               exact
